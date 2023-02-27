@@ -63,6 +63,7 @@ async function get_prod_by_id(category, id) {
         .then(res => {
             for (const el of res) {
                 if(el.id == id){
+                    el.count = 1;
                     result = el;
                 }
             }

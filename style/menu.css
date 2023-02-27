@@ -1,6 +1,5 @@
 .blc-menu {
     width: 100%;
-    /* min-height: 800px; */
     position: relative;
     margin-top: 80px;
 }
@@ -42,7 +41,6 @@
 }
 
 .stretched-link {
-    display: block;
     margin: auto;
     font-size: 22px;
     margin-top: 20px;

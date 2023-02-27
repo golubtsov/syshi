@@ -1,6 +1,5 @@
 .blc-basket {
     width: 100%;
-    /* min-height: 700px; */
     margin-top: 80px;
 }
 
@@ -67,4 +66,20 @@ textarea {
 
 .btn-submit {
     border: none;
+}
+
+.blc-count {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.blc-count input {
+    display: block;
+    margin: 2px;
+}
+
+.count {
+    width: 60px;
+    text-align: center;
 }

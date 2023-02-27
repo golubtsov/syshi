@@ -1,7 +1,12 @@
 const blc_products = document.querySelector('.col-md-6');
+const text_none = document.querySelector('.pusto');
 
 function get_basket() {
+    blc_products.innerHTML = '';
     let basket = JSON.parse(localStorage.basket);
+    if (basket.length != 0) {
+        text_none.style.display = 'none';
+    }
     for (const el of basket) {
         create_card_prod(el);
     }
@@ -16,6 +21,11 @@ function create_card_prod(prod) {
             <h3 class="mb-0">${prod.name}</h3>
             <p class="card-text mb-auto">${prod.menu}</p>
             <p class="card-text price">${prod.price}</p>
+            <div class="blc-count">
+                <input onclick="minus('${prod.name}')" type="button" class="stretched-link" value="-">
+                <input oninput="add_count()" type="number" class="count" value="${prod.count}">
+                <input onclick="plus('${prod.name}')" type="button" class="stretched-link" value="+">
+            </div>
             <input onclick="remove_prod('${prod.name}')" type="button" class="stretched-link btn-remove" value="Удалить">
         </div>
         <div class="card-img col-auto d-lg-block">
@@ -27,9 +37,8 @@ function create_card_prod(prod) {
 
 function remove_prod(name) {
     let new_basket = [];
-    blc_products.innerHTML = '';
     for (const el of JSON.parse(localStorage.basket)) {
-        if(!el.name == name){
+        if (el.name != name) {
             new_basket = [...new_basket, el];
         }
     }
@@ -39,4 +48,42 @@ function remove_prod(name) {
 
 function send_basket(data) {
     localStorage.basket = JSON.stringify(data);
+}
+
+function plus(name) {
+    let new_basket = [];
+    for (const el of JSON.parse(localStorage.basket)) {
+        if (el.name == name) {
+            if(el.count != 15) {
+                el.count = el.count + 1;
+            }
+        }
+        new_basket = [...new_basket, el];
+    }
+    send_basket(new_basket);
+    get_basket();
+}
+
+function minus(name) {
+    let new_basket = [];
+    for (const el of JSON.parse(localStorage.basket)) {
+        if (el.name == name) {
+            if (el.count != 1) {
+                el.count = el.count - 1;
+            }
+        }
+        new_basket = [...new_basket, el];
+    }
+    send_basket(new_basket);
+    get_basket();
+}
+
+function add_count(){
+    const val = document.querySelector('.count');
+    if(Number(val.value) <= 1){
+        val.value = 1;
+    }
+    if(Number(val.value) >= 15){
+        val.value = 15;
+    }
 }
