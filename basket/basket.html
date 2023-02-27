@@ -27,19 +27,19 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a href="/" class="nav-link active" aria-current="page" href="#">Главная</a>
+                            <a href="./" class="nav-link active" aria-current="page" href="#">Главная</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a href="/menu/menu.html?menu=all" class="nav-link" href="#">Меню</a>
                         </li> -->
                         <li class="nav-item">
-                            <a href="/dostavka/dostavka.html" class="nav-link" href="#">Доставка</a>
+                            <a href="./dostavka/dostavka.html" class="nav-link" href="#">Доставка</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/contacts/contacts.html" class="nav-link" href="#">Контакты</a>
+                            <a href="./contacts/contacts.html" class="nav-link" href="#">Контакты</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/basket/basket.html" class="nav-link" href="#"><ion-icon class="icon"
+                            <a href="./basket/basket.html" class="nav-link" href="#"><ion-icon class="icon"
                                     name="bag-outline"></ion-icon></a>
                         </li>
                     </ul>
@@ -57,20 +57,7 @@
         </div>
         <div class="blc-menu">
             <div class="col-md-6">
-                <div
-                    class="card-prod row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">${prod.name}</h3>
-                        <p class="card-text mb-auto">${prod.menu}</p>
-                        <p class="card-text price">${prod.price}</p>
-                        <input data-category="${category}" id="${prod.id}" type="button"
-                            class="stretched-link btn-remove" value="Удалить">
-                    </div>
-                    <div class="card-img col-auto d-lg-block">
-                        <img src="http://ieroglif22.ru/wp-content/uploads/2018/11/yablochnyi-pirog-700x700.jpg"
-                            alt="${prod.name}" width="200px" height="250px">
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="blc-itog-price">
@@ -200,4 +187,6 @@
         crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="/scripts/basket/basket.js"></script>
 </body>
