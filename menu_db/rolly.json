@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/avokado-maki-700x700.jpg",
+        "name": "Авокадо маки",
+        "menu": {},
+        "price": "360.00 руб."
+    },
+    {
+        "id": 2,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/geisha-maki-700x700.jpg",
+        "name": "Гейша маки",
+        "menu": {},
+        "price": "420.00 руб."
+    },
+    {
+        "id": 3,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/goryachii-roll-700x700.jpg",
+        "name": "Горячий ролл",
+        "menu": {},
+        "price": "495.00 руб."
+    },
+    {
+        "id": 4,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/drakon-700x700.jpg",
+        "name": "Дракон",
+        "menu": {},
+        "price": "490.00 руб."
+    },
+    {
+        "id": 5,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zharenaya-filadelfiya-700x700.jpg",
+        "name": "Жареная филадельфия",
+        "menu": {},
+        "price": "530.00 руб."
+    },
+    {
+        "id": 6,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2020/03/zharenyj-roll-s-ugrem-700x700.jpg",
+        "name": "Жареный ролл с угрем",
+        "menu": {},
+        "price": "490.00 руб."
+    },
+    {
+        "id": 7,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zapechenye-ostrye-sushi-spice-700x700.jpg",
+        "name": "Запеченные острые суши спайс",
+        "menu": {},
+        "price": "495.00 руб."
+    },
+    {
+        "id": 8,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zapechenyi-roll-s-grebeshkom-700x700.jpg",
+        "name": "Запеченный ролл с гребешком",
+        "menu": {},
+        "price": "595.00 руб."
+    },
+    {
+        "id": 9,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zapechenyi-roll-s-ugrem-lososem-700x700.jpg",
+        "name": "Запеченный ролл с угрем и лососем",
+        "menu": {},
+        "price": "535.00 руб."
+    },
+    {
+        "id": 10,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/kaliforniya-700x700.jpg",
+        "name": "Калифорния",
+        "menu": {},
+        "price": "495.00 руб."
+    }
+]

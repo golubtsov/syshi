@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/kokosovyi-sup-700x700.jpg",
+        "name": "Кокосовый суп с креветками",
+        "menu": {},
+        "price": "385.00 руб."
+    },
+    {
+        "id": 2,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/miso-shiru-700x700.jpg",
+        "name": "Мисо ширу",
+        "menu": {},
+        "price": "380.00 руб."
+    },
+    {
+        "id": 3,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/ostryi-sup-moreprodukty-700x700.jpg",
+        "name": "Острый суп с морепродуктами",
+        "menu": {},
+        "price": "545.00 руб."
+    },
+    {
+        "id": 4,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/ramen-s-lososem-700x700.jpg",
+        "name": "Рамен с лососем",
+        "menu": {},
+        "price": "470.00 руб."
+    },
+    {
+        "id": 5,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/ramen-s-cyplenkom-700x700.jpg",
+        "name": "Рамен с цыпленком",
+        "menu": {},
+        "price": "425.00 руб."
+    },
+    {
+        "id": 6,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/sup-iz-baraniny-700x700.jpg",
+        "name": "Суп из баранины",
+        "menu": {},
+        "price": "365.00 руб."
+    },
+    {
+        "id": 7,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/sup-ostro-kislyi-700x700.jpg",
+        "name": "Суп остро-кислый",
+        "menu": {},
+        "price": "370.00 руб."
+    },
+    {
+        "id": 8,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/sup-s-utinoi-grudkoi-700x700.jpg",
+        "name": "Суп с утиной грудкой",
+        "menu": {},
+        "price": "470.00 руб."
+    },
+    {
+        "id": 9,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/sup-s-yaichnimy-cvetami-700x700.jpg",
+        "name": "Суп с яичными цветами",
+        "menu": {},
+        "price": "395.00 руб."
+    },
+    {
+        "id": 10,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/sup-tom-kha-700x700.jpg",
+        "name": "Суп Том Кха",
+        "menu": {},
+        "price": "460.00 руб."
+    }
+]

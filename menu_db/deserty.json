@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/vishnevyi-roll-700x700.jpg",
+        "name": "Вишневый ролл",
+        "menu": {},
+        "price": "490.00 руб."
+    },
+    {
+        "id": 2,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/gedze-s-mango-700x700.jpg",
+        "name": "Гедзе с манго",
+        "menu": {},
+        "price": "440.00 руб."
+    },
+    {
+        "id": 3,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/merenga-700x700.jpg",
+        "name": "Меренга",
+        "menu": {},
+        "price": "430.00 руб."
+    },
+    {
+        "id": 4,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/mix-iz-svezhix-fruktov-karamel-700x700.jpg",
+        "name": "Микс из свежих фруктов в карамели",
+        "menu": {},
+        "price": "440.00 руб."
+    },
+    {
+        "id": 5,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/pocelui-geishi-700x700.jpg",
+        "name": "Поцелуй гейши",
+        "menu": {},
+        "price": "395.00 руб."
+    },
+    {
+        "id": 6,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/tort-shokoladnyi-700x700.jpg",
+        "name": "Торт шоколадный",
+        "menu": {},
+        "price": "435.00 руб."
+    },
+    {
+        "id": 7,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/cheesecake-700x700.jpg",
+        "name": "Чизкейк",
+        "menu": {},
+        "price": "340.00 руб."
+    },
+    {
+        "id": 8,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/shokolandyi-roll-700x700.jpg",
+        "name": "Шоколадный ролл",
+        "menu": {},
+        "price": "490.00 руб."
+    },
+    {
+        "id": 9,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/shocoladnyi-tort-700x700.jpg",
+        "name": "Шоколадный торт с творожным кремом",
+        "menu": {},
+        "price": "460.00 руб."
+    },
+    {
+        "id": 10,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/yablochnyi-pirog-700x700.jpg",
+        "name": "Яблочный пирог",
+        "menu": {},
+        "price": "420.00 руб."
+    }
+]

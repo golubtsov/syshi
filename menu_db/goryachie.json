@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/baklazhany-ii-hyang-700x700.jpg",
+        "name": "Баклажаны Ий Хьянг",
+        "menu": {},
+        "price": "415.00 руб."
+    },
+    {
+        "id": 2,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/baklazhan-skovoroda-700x700.jpg",
+        "name": "Баклажаны на шипящей сковороде",
+        "menu": {},
+        "price": "495.00 руб."
+    },
+    {
+        "id": 3,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/baklazhany-so-svininoi-i-gribami-700x700.jpg",
+        "name": "Баклажаны со свининой и грибами",
+        "menu": {},
+        "price": "495.00 руб."
+    },
+    {
+        "id": 4,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2020/03/baoczy-s-lososem-i-slivochnym-syrom-700x700.jpg",
+        "name": "Баоцзы с лососем и сливочным сыром",
+        "menu": {},
+        "price": "665.00 руб."
+    },
+    {
+        "id": 5,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/baoczy-svinina-krevetka-700x700.jpg",
+        "name": "Баоцзы со свининой и креветкой",
+        "menu": {},
+        "price": "490.00 руб."
+    },
+    {
+        "id": 6,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/govyadina-v-ostrom-souse-700x700.jpg",
+        "name": "Говядина в остром соусе",
+        "menu": {},
+        "price": "540.00 руб."
+    },
+    {
+        "id": 7,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/govadina-baklazhany-perec-700x700.jpg",
+        "name": "Говядина с баклажанами в перечном соусе",
+        "menu": {},
+        "price": "485.00 руб."
+    },
+    {
+        "id": 8,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/grebeshok-s-ovoshami-700x700.jpg",
+        "name": "Гребешок с овощами",
+        "menu": {},
+        "price": "665.00 руб."
+    },
+    {
+        "id": 9,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zharennyi-ris-moreprodukty-700x700.jpg",
+        "name": "Жареный рис с морепродуктами",
+        "menu": {},
+        "price": "495.00 руб."
+    },
+    {
+        "id": 10,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zapechenye-krevetki-s-grebeshkom-700x700.jpg",
+        "name": "Запеченные креветки с гребешком и рисом",
+        "menu": {},
+        "price": "795.00 руб."
+    }
+]

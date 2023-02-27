@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2020/03/vesennie-rolly2-700x700.jpg",
+        "name": "Весенние роллы",
+        "menu": {},
+        "price": "440.00 руб."
+    },
+    {
+        "id": 2,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zharennyi-syr-s-sousom-700x700.jpg",
+        "name": "Жареный сыр с брусничным соусом",
+        "menu": {},
+        "price": "495.00 руб."
+    },
+    {
+        "id": 3,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zakuska-is-lososya-700x700.jpg",
+        "name": "Закуска из лосося",
+        "menu": {},
+        "price": "640.00 руб."
+    },
+    {
+        "id": 4,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/zakuska-iz-svinyh-ushei-700x700.jpg",
+        "name": "Закуска из свиных ушей",
+        "menu": {},
+        "price": "420.00 руб."
+    },
+    {
+        "id": 5,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/konvertiki-s-baraninoi-700x700.jpg",
+        "name": "Конвертики с бараниной",
+        "menu": {},
+        "price": "495.00 руб."
+    },
+    {
+        "id": 6,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/marinovannyi-tunec-700x700.jpg",
+        "name": "Маринованный тунец",
+        "menu": {},
+        "price": "640.00 руб."
+    },
+    {
+        "id": 7,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/midii-tom-yam-700x700.jpg",
+        "name": "Мидии в соусе «Том Ям»",
+        "menu": {},
+        "price": "595.00 руб."
+    },
+    {
+        "id": 8,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/spring-rolly-moreproducty-700x700.jpg",
+        "name": "Спринг-роллы из морепродуктов",
+        "menu": {},
+        "price": "665.00 руб."
+    },
+    {
+        "id": 9,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/tar-tar-is-lososya-700x700.jpg",
+        "name": "Тар-тар из лосося",
+        "menu": {},
+        "price": "435.00 руб."
+    },
+    {
+        "id": 10,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/tempura-s-krevetkami-700x700.jpg",
+        "name": "Темпура с креветками",
+        "menu": {},
+        "price": "725.00 руб."
+    }
+]

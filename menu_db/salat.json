@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2020/03/bitye-ogurcy-700x700.jpg",
+        "name": "Битые огурцы",
+        "menu": {},
+        "price": "375.00 руб."
+    },
+    {
+        "id": 2,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/drevesnye-griby-s-chesnokom-700x700.jpg",
+        "name": "Древесные грибы с чесноком",
+        "menu": {},
+        "price": "365.00 руб."
+    },
+    {
+        "id": 3,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/kartofelnaya-solomka-700x700.jpg",
+        "name": "Картофельная соломка",
+        "menu": {},
+        "price": "345.00 руб."
+    },
+    {
+        "id": 4,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/marinovannye-ovoshi-700x700.jpg",
+        "name": "Маринованные овощи",
+        "menu": {},
+        "price": "360.00 руб."
+    },
+    {
+        "id": 5,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/salat-ovoshnoi-s-syrom-700x700.jpg",
+        "name": "Овощной салат с мягким сыром",
+        "menu": {},
+        "price": "470.00 руб."
+    },
+    {
+        "id": 6,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/ovoshnoi-salat-s-ugrem-700x700.jpg",
+        "name": "Овощной салат с угрем",
+        "menu": {},
+        "price": "465.00 руб."
+    },
+    {
+        "id": 7,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2020/03/poke-s-krevetkoj-tempura-700x700.jpg",
+        "name": "Поке с креветкой темпура",
+        "menu": {},
+        "price": "510.00 руб."
+    },
+    {
+        "id": 8,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2020/03/poke-s-lososem-700x700.jpg",
+        "name": "Поке с лососем",
+        "menu": {},
+        "price": "515.00 руб."
+    },
+    {
+        "id": 9,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/rostki-soi-700x700.jpg",
+        "name": "Ростки сои",
+        "menu": {},
+        "price": "310.00 руб."
+    },
+    {
+        "id": 10,
+        "img": "http://ieroglif22.ru/wp-content/uploads/2018/11/salat-is-vodoroslei-700x700.jpg",
+        "name": "Салат из водорослей",
+        "menu": {},
+        "price": "385.00 руб."
+    }
+]
