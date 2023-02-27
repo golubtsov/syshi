@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Меню</title>
+    <title>Корзина</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/menu.css">
+    <link rel="stylesheet" href="../style/basket.css">
 </head>
 
 <body>
-
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
             <div class="container-fluid">
@@ -29,9 +29,9 @@
                         <li class="nav-item">
                             <a href="/" class="nav-link active" aria-current="page" href="#">Главная</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="/menu/menu.html" class="nav-link" href="#">Меню</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="/menu/menu.html?menu=all" class="nav-link" href="#">Меню</a>
+                        </li> -->
                         <li class="nav-item">
                             <a href="/dostavka/dostavka.html" class="nav-link" href="#">Доставка</a>
                         </li>
@@ -48,13 +48,66 @@
         </nav>
     </header>
 
-    <!-- <div class="blc-menu"> -->
-    <div class="row mb-2 blc-menu">
-        <div class="col-md-6">
-            
+    <div class="blc-basket">
+        <div class="blc-title-menu">
+            <p class="title-menu">Здесь еще ничего нет.</p>
+        </div>
+        <div class="blc-title-menu">
+            <h2 class="title-menu">Корзина</h2>
+        </div>
+        <div class="blc-menu">
+            <div class="col-md-6">
+                <div
+                    class="card-prod row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <h3 class="mb-0">${prod.name}</h3>
+                        <p class="card-text mb-auto">${prod.menu}</p>
+                        <p class="card-text price">${prod.price}</p>
+                        <input data-category="${category}" id="${prod.id}" type="button"
+                            class="stretched-link btn-remove" value="Удалить">
+                    </div>
+                    <div class="card-img col-auto d-lg-block">
+                        <img src="http://ieroglif22.ru/wp-content/uploads/2018/11/yablochnyi-pirog-700x700.jpg"
+                            alt="${prod.name}" width="200px" height="250px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blc-itog-price">
+            <div class="blc-price">
+                <h3 class="title-itog">Всего <span class="text-price">0</span>руб.</h3>
+            </div>
+        </div>
+        <div class="blc-form-oder">
+            <form class="form-oder border">
+                <div class="blc-title-menu">
+                    <span class="title-menu">Детали оплаты</sapn>
+                </div>
+                <div>
+                    <p>Имя<b style="color: red">*</b></p> 
+                    <p><input type="text" name="fname" required></p>
+                </div>
+                <div>
+                    <p>Фамилия<b style="color: red">*</b></p> <p></p><input type="text" name="lname" required></p>
+                </div>
+                <div>
+                    <p>Номер телефона<b style="color: red">*</b></p>
+                    <p></p><input type="text" name="phone" required></p>
+                </div>
+                <div>
+                    <p>Адрес<b style="color: red">*</b></p>
+                    <p></p><input type="text" name="adres" required></p>
+                </div>
+                <div>
+                    <p>Пожелания к заказу</p>
+                    <p><textarea name="good" id="good" placeholder="Например, количество приборов, желаемое время доставки и т.п. "></textarea></p>
+                </div>
+                <div>
+                    <p><input type="button" value="Подтвердить заказ" class="stretched-link"></p>
+                </div>
+            </form>
         </div>
     </div>
-    <!-- </div> -->
 
     <footer class="text-center text-lg-start text-white" style="background-color: #111111">
         <!-- Grid container -->
@@ -138,6 +191,7 @@
         <!-- Copyright -->
     </footer>
 
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
@@ -146,9 +200,4 @@
         crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    <script src="/scripts/menu/menu.js"></script>
-
 </body>
-
-</html>
