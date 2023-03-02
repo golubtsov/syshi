@@ -4,6 +4,46 @@
     margin-top: 80px;
 }
 
+.list-menu {
+    width:70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item-menu {
+    margin: 20px auto;
+}
+
+.block-item {
+    display: block;
+}
+
+.img-item {
+    border-radius: 10px;
+    box-shadow: 0 0 8px #000000a3;
+}
+
+.title-item {
+    text-align: center;
+}
+
+.link-item {
+    display: block;
+    color: #ffffff;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 3px solid black;
+    transition: all 0.5 ease-in;
+}
+
+.link-item:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
 .col-md-6 {
     width: 70%;
     margin: auto;

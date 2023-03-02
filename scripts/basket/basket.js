@@ -13,6 +13,7 @@ function get_basket() {
     return basket;
 }
 get_basket();
+get_price();
 
 function create_card_prod(prod) {
     blc_products.innerHTML += `
@@ -44,6 +45,7 @@ function remove_prod(name) {
     }
     send_basket(new_basket);
     get_basket();
+    get_price();
 }
 
 function send_basket(data) {
@@ -56,6 +58,7 @@ function plus(name) {
         if (el.name == name) {
             if(el.count != 15) {
                 el.count = el.count + 1;
+                change_price_plus();
             }
         }
         new_basket = [...new_basket, el];
@@ -70,6 +73,7 @@ function minus(name) {
         if (el.name == name) {
             if (el.count != 1) {
                 el.count = el.count - 1;
+                change_price_minus();
             }
         }
         new_basket = [...new_basket, el];
@@ -85,5 +89,36 @@ function add_count(){
     }
     if(Number(val.value) >= 15){
         val.value = 15;
+    }
+}
+
+function change_price_minus(){
+    let price_el = document.querySelector('.text-price');
+    let price = Number(price_el.innerHTML);
+    for (const el of JSON.parse(localStorage.basket)) {
+        price -= Number(el.price.substring(-1,6));
+    }
+    price_el.innerHTML = price;
+}
+
+function change_price_plus(){
+    let price_el = document.querySelector('.text-price');
+    let price = Number(price_el.innerHTML);
+    for (const el of JSON.parse(localStorage.basket)) {
+        price += Number(el.price.substring(-1,6));
+    }
+    price_el.innerHTML = price;
+}
+
+function get_price(){
+    let price_el = document.querySelector('.text-price');
+    let price = Number(price_el.innerHTML);
+    if(JSON.parse(localStorage.basket) != 0){
+        for (const el of JSON.parse(localStorage.basket)) {
+            price += Number(el.price.substring(-1,6));
+        }
+        price_el.innerHTML = price;
+    } else {
+        price_el.innerHTML = 0;
     }
 }

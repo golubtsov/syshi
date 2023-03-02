@@ -104,3 +104,7 @@ footer {
     color: white;
     margin: 0 10px;
 }
+
+.carousel-caption {
+    text-shadow: 15px 15px 15px #000000;
+}

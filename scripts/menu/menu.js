@@ -1,13 +1,33 @@
 const blc_products = document.querySelector('.col-md-6');
+const list_links = document.querySelectorAll('.link-item');
+for (const el of list_links) {
+    el.addEventListener('click', (event) => {
+        event.preventDefault();
+        blc_products.innerHTML = '';
+        get_prod_by_param(el.id);
+        blc_products.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+}
+
+let url_param = new URL(window.location).search.substring(6);
 
 function getURL() {
-    let url_param = new URL(window.location).search.substring(6);
     console.log(url_param);
-    get_prod_by_param(url_param)
+    get_prod_by_param(url_param);
 }
-getURL();
+
+if(url_param != 'all') {
+    getURL();
+}
 
 async function get_prod_by_param(param) {
+    blc_products.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
     await fetch(`../menu_db/${param}.json`)
         .then(res => res.json())
         .then(res => {
@@ -87,4 +107,8 @@ function check_basket(basket, prod){
         }
     }
     return res;
+}
+
+function change_price(){
+    
 }
