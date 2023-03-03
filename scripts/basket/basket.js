@@ -45,6 +45,8 @@ function remove_prod(name) {
     }
     send_basket(new_basket);
     get_basket();
+    let price_el = document.querySelector('.text-price');
+    price_el.innerHTML = 0;
     get_price();
 }
 

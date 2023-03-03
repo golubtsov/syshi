@@ -1,3 +1,5 @@
+const popup = document.querySelector('.blc-popup');
+const popup_text = document.querySelector('.blc-content .text');
 const blc_products = document.querySelector('.col-md-6');
 const list_links = document.querySelectorAll('.link-item');
 for (const el of list_links) {
@@ -67,11 +69,13 @@ async function add_basket() {
     let prod = await get_prod_by_id(cat_prod, id_prod);
     let basket = get_basket();
     if(check_basket(basket, prod)){
-        alert('Блюдо уже добавлено!');
+        popup_text.innerHTML = 'Блюдо уже добавлено!';
+        popup.style.display = 'flex';
     } else {
         basket = [...basket, prod];
         send_basket(basket);
-        alert('Блюдо добавлено в корзину!');
+        popup_text.innerHTML = 'Блюдо добавлено в корзину!';
+        popup.style.display = 'flex';
     }
 
 }
