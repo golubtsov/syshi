@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/menu.css">
     <link rel="stylesheet" href="../style/basket.css">
+    <link rel="stylesheet" href="/style/popup.css">
 </head>
 
 <body>
@@ -68,41 +69,35 @@
                 </div>
                 <div>
                     <p>Имя<b style="color: red">*</b></p> 
-                    <p><input type="text" name="fname" required></p>
+                    <p><input type="text" name="fname"></p>
                 </div>
                 <div>
-                    <p>Фамилия<b style="color: red">*</b></p> <p></p><input type="text" name="lname" required></p>
+                    <p>Фамилия<b style="color: red">*</b></p> <p></p><input type="text" name="lname"></p>
                 </div>
                 <div>
                     <p>Номер телефона<b style="color: red">*</b></p>
-                    <p></p><input type="text" name="phone" required></p>
+                    <p></p><input type="text" name="phone"></p>
                 </div>
                 <div>
                     <p>Адрес<b style="color: red">*</b></p>
-                    <p></p><input type="text" name="adres" required></p>
+                    <p></p><input type="text" name="adres"></p>
                 </div>
                 <div>
                     <p>Пожелания к заказу</p>
                     <p><textarea name="good" id="good" placeholder="Например, количество приборов, желаемое время доставки и т.п. "></textarea></p>
                 </div>
                 <div>
-                    <p><input type="button" value="Подтвердить заказ" class="stretched-link"></p>
+                    <p><input type="submit" value="Подтвердить заказ" class="stretched-link"></p>
                 </div>
             </form>
         </div>
     </div>
 
     <footer class="text-center text-lg-start text-white" style="background-color: #111111">
-        <!-- Grid container -->
         <div class="container p-4 pb-0">
-            <!-- Section: Links -->
             <section class="">
-                <!--Grid row-->
                 <div class="row">
-
                     <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Иероглиф</h6>
                         <p>
@@ -115,14 +110,8 @@
                             <a href="/about/about.html" class="text-white">О нас</a>
                         </p>
                     </div>
-                    <!-- Grid column -->
-
                     <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
                     <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Контакты</h6>
 
@@ -143,9 +132,6 @@
                             <span>8 8899 888 89</span>
                         </div>
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Мы в соцсетях</h6>
                         <a href="https://vk.com/" class="link-social"><ion-icon name="logo-vk"></ion-icon></i></a>
@@ -158,19 +144,23 @@
 
                     </div>
                 </div>
-                <!--Grid row-->
             </section>
-            <!-- Section: Links -->
         </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
             © 2023 Ресторан японской кухни "Иероглиф"
         </div>
-        <!-- Copyright -->
     </footer>
 
+    <div class="blc-popup">
+        <div class="blc-window">
+            <div class="blc-close">
+                <ion-icon class="close-circle-outline" name="close-circle-outline"></ion-icon>
+            </div>
+            <div class="blc-content">
+                <p class="text">Блюдо добавлено в корзину!</p>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -182,4 +172,6 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <script src="/scripts/basket/basket.js"></script>
+    <script src="/scripts/form/form.js"></script>
+    <script src="/scripts/popup/popup.js"></script>
 </body>

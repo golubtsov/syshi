@@ -6,6 +6,8 @@ function get_basket() {
     let basket = JSON.parse(localStorage.basket);
     if (basket.length != 0) {
         text_none.style.display = 'none';
+    } else {
+        text_none.style.display = 'block';
     }
     for (const el of basket) {
         create_card_prod(el);
